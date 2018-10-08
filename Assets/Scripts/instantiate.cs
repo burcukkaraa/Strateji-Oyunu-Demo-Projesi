@@ -25,19 +25,7 @@ public class instantiate : MonoBehaviour {
 
     public GameObject Panel_harita;
 
-
-
-
-
-
-
-
-
-    // public Button Button_insaet_aticibina ;
-    // public GameObject Buttonaticibina;
-
-    // public Button Button_insaet_lejyonerbina  ;
-    //public GameObject Buttonlejyonerbina;
+ 
 
   
 
@@ -67,12 +55,7 @@ public class instantiate : MonoBehaviour {
                     btn_baraka_yeni.transform.SetParent(GameObject.Find("Button_baraka").transform, false); 
 
                     Debug.Log(" baraka klonlandı");
-
-                   // DontDestroyOnLoad(btn_baraka_yeni);
-
-
-              
-
+ 
             }
 
           
@@ -118,39 +101,15 @@ public class instantiate : MonoBehaviour {
 
                 btn_mizrakcibina_yeni.tag = "temas";
 
-                btn_mizrakcibina_yeni.transform.SetParent(GameObject.Find("Button_baraka").transform, false);
+                btn_mizrakcibina_yeni.transform.SetParent(GameObject.Find("Panel_harita").transform, false);
 
                 Debug.Log(" mızrakçı bina klonlandı");
 
-                BoxCollider2D col = btn_mizrakcibina_yeni.AddComponent<BoxCollider2D>();
-                col.size = new Vector3(67, 47, 0);
-                
+                  
 
             }
 
-          // else if (mybutton.name == "Button_insaet_aticibina")
-           // {
-            //   Debug.Log(" atıcı bina inşa ediliyor.");
-            //
-             //   GameObject btn_aticibina_yeni = Instantiate(Buttonaticibina, nokta, Quaternion.identity) as GameObject;
-
-              //  btn_aticibina_yeni.transform.SetParent(GameObject.Find("Buttonaticibina").transform, false);
-
-              //  Debug.Log(" atıcı bina klonlandı");
-
-            //}
-
-           // else if (mybutton.name == "Button_insaet_lejyonerbina")
-           // {
-            //    Debug.Log(" lejyoner bina inşa ediliyor.");
-            //
-            //    GameObject btn_Buttonlejyonerbina_yeni = Instantiate(Buttonlejyonerbina, nokta, Quaternion.identity) as GameObject;
-
-           //     btn_Buttonlejyonerbina_yeni.transform.SetParent(GameObject.Find("Buttonlejyonerbina").transform, false);
-
-             //   Debug.Log(" lejyoner bina klonlandı");
-
-           // }
+         
 
         }
 

@@ -90,7 +90,6 @@
     <Compile Include="Assets\Scripts\Panel_okcukislasi_uretim.cs" />
     <Compile Include="Assets\Scripts\santralinsaet.cs" />
     <Compile Include="Assets\Scripts\start_menu.cs" />
-    <Compile Include="Assets\Scripts\verisaklama_oyunalani.cs" />
     <Compile Include="Assets\SpritesArchers\Scripts\Change_Sprite.cs" />
     <None Include="Assets\Fonts\Documentation\JazzCreateBubble_VersionHistory_1.1.txt" />
     <None Include="Assets\Horizontal Fit 2D\Reedme.txt" />
